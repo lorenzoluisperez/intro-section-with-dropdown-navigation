@@ -51,7 +51,7 @@ const Home: NextPage = () => {
     setRenderTransition(false);
     setTimeout(() => {
       setRenderTransition(true);
-    }, 10);
+    }, 100);
   };
 
   return (
@@ -82,10 +82,10 @@ const Home: NextPage = () => {
               <div className="fixed inset-y-0 right-0 w-[65%] max-w-sm flex">
                 <Transition.Child
                   as={Fragment}
-                  enter="transform transition ease-in-out duration-700"
+                  enter="transition-all ease-in-out duration-[400ms]"
                   enterFrom="translate-x-full"
                   enterTo="translate-x-0"
-                  leave="transform transition ease-in-out duration-700"
+                  leave="transition-all ease-in-out duration-[400ms]"
                   leaveFrom="translate-x-0"
                   leaveTo="translate-x-full"
                 >
@@ -95,7 +95,10 @@ const Home: NextPage = () => {
                         <div className="flex items-center justify-end">
                           <div
                             className="hover:opacity-80 hover:cursor-pointer transition ease-in-out duration-300 flex justify-center items-center"
-                            onClick={() => setMobileMenuShow(false)}
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              setMobileMenuShow(false);
+                            }}
                           >
                             <span className="sr-only">Close panel</span>
                             <Image
