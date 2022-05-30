@@ -417,7 +417,7 @@ const Home: NextPage = () => {
           </div>
           <div className="mx-3 mt-8 lg:mt-0 lg:mx-0 lg:flex lg:flex-col lg:justify-between">
             <div className="lg:flex lg:flex-col lg:my-auto">
-              <h1 className="text-[2.29rem] text-center lg:text-left lg:text-[3.5rem] xl:text-[4.3rem] xl:leading-[4.5rem] leading-[3.5rem] 2xl:text-8xl font-bold text-almost-black">
+              <h1 className="text-[2.29rem] text-center lg:text-left lg:text-[3.5rem] xl:text-[4.6rem] xl:leading-[4.5rem] leading-[3.5rem] 2xl:text-[6.5rem] 2xl:leading-[6.4rem] font-bold text-almost-black">
                 Make remote work
               </h1>
               <div className="my-2">
