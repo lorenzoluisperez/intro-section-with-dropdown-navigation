@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/intro-section-u_4jzMsR5e)
 - Live Site URL: [Add live site URL here](https://intro-section-with-dropdown-navigation-lor.vercel.app)
 
 ## My process
@@ -44,4 +44,4 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@lorenzoluisperez](https://www.frontendmentor.io/profile/lorenzoluisperez)
