@@ -399,7 +399,7 @@ const Home: NextPage = () => {
             </button>
           </div>
         </header>
-        <main className="lg:grid lg:grid-cols-2 lg:w-9/12 lg:mx-auto lg:mt-6 2xl:mt-12">
+        <main className="lg:grid lg:grid-cols-2 lg:w-9/12 lg:mx-auto lg:mt-6 2xl:mt-12 xl:pb-20">
           <div className="lg:order-last lg:ml-14 2xl:ml-40">
             <picture>
               <source
