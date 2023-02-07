@@ -5,34 +5,58 @@ import { Dialog, Disclosure, Transition, Popover } from "@headlessui/react";
 import { Fragment, useState } from "react";
 
 const featureMenu = [
-  {
-    name: "Todo List",
+  /* {
+    name: "Todo Listssss",
     icon: "/icon-todo.svg",
     height: 16,
     width: 14,
   },
   {
-    name: "Calendar",
+    name: "Calendarsss",
     icon: "/icon-calendar.svg",
     height: 16,
     width: 16,
   },
   {
-    name: "Reminders",
+    name: "Remindersssssssss",
     icon: "/icon-reminders.svg",
     height: 17,
     width: 13,
   },
   {
-    name: "Planning",
+    name: "Planningssss",
     icon: "/icon-planning.svg",
     height: 16,
     width: 16,
+  }, */
+  {
+    name: "WAGKANANG",
+    icon: "/icon-todo.svg",
+    height: 16,
+    width: 14,
   },
+  {
+    name: "MAWALAAAAAA",
+    icon: "/icon-calendar.svg",
+    height: 16,
+    width: 16,
+  },
+  {
+    name: "WAGKANANG",
+    icon: "/icon-reminders.svg",
+    height: 17,
+    width: 13,
+  },
+  {
+    name: "MAWALAAAAAA",
+    icon: "/icon-planning.svg",
+    height: 16,
+    width: 16,
+  }
 ];
 
 const companyMenu = [
-  {
+  /* {
     name: "History",
   },
   {
@@ -40,6 +64,15 @@ const companyMenu = [
   },
   {
     name: "Blog",
+  }, */
+  {
+    name: "SAAAAAAA",
+  },
+  {
+    name: "YOOOOOOOO",
+  },
+  {
+    name: "DAAADAAAAALHIN",
   },
 ];
 
@@ -118,7 +151,7 @@ const Home: NextPage = () => {
                               {({ open }) => (
                                 <Fragment>
                                   <Disclosure.Button className="flex flex-row justify-start focus:border-none items-center text-medium-gray py-2 hover:text-almost-black transition duration-300">
-                                    <span className="pr-3">Features</span>
+                                    <span className="pr-3">{/* Features */}JOOPAAAAY</span>
                                     <svg
                                       className={`fill-current transition ease-out ${
                                         open &&
@@ -175,7 +208,7 @@ const Home: NextPage = () => {
                               {({ open }) => (
                                 <Fragment>
                                   <Disclosure.Button className="flex flex-row justify-start items-center text-medium-gray py-2 hover:text-almost-black transition duration-300">
-                                    <span className="pr-3">Company</span>
+                                    <span className="pr-3">{/* Company */}KAMUSTA</span>
                                     <svg
                                       className={`fill-current transition ease-out ${
                                         open &&
@@ -225,7 +258,7 @@ const Home: NextPage = () => {
                                 href="#"
                                 className="py-2 block hover:cursor-pointer text-medium-gray hover:text-almost-black transition-all ease-in-out duration-300"
                               >
-                                Careers
+                                {/* Careers */}KANAAA
                               </a>
                             </li>
                             <li>
@@ -268,7 +301,7 @@ const Home: NextPage = () => {
                     {({ open }) => (
                       <>
                         <Popover.Button className="relative flex flex-row text-medium-gray hover:text-almost-black items-center justify-start mx-5">
-                          <span className="pr-3">Features</span>
+                          <span className="pr-3">{/* Features */}JOOPAAY</span>
                           <svg
                             className={`fill-current transition ease-out ${
                               open && "transform -rotate-180  duration-300"
@@ -321,7 +354,7 @@ const Home: NextPage = () => {
                     {({ open }) => (
                       <>
                         <Popover.Button className="flex flex-row items-center text-medium-gray hover:text-almost-black justify-start mx-5">
-                          <span className="pr-3">Company</span>
+                          <span className="pr-3">{/* Company */}KAMUSTA</span>
                           <svg
                             className={`fill-current transition ease-out ${
                               open && "transform -rotate-180  duration-300"
@@ -369,7 +402,7 @@ const Home: NextPage = () => {
                       href="#"
                       className="py-2 px-6 block hover:cursor-pointer text-medium-gray hover:text-almost-black transition-all ease-in-out duration-300"
                     >
-                      Careers
+                      {/* Careers */}KANAAA
                     </a>
                   </li>
                   <li>
